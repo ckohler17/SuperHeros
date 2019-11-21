@@ -243,9 +243,10 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\superheros\Create.cshtml" />
-    <Content Include="Views\superheros\Index.cshtml" />
     <Content Include="Views\superheros\Details.cshtml" />
     <Content Include="Views\superheros\Edit.cshtml" />
+    <Content Include="Views\superheros\Delete.cshtml" />
+    <Content Include="Views\superheros\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
