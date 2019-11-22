@@ -21,7 +21,7 @@
             @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })               
             </div>
         </div>
 
@@ -63,12 +63,19 @@
             </div>
         </div>
     </div>
+
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index")    
+</div>
+<br />
+
+<div>
+    <img src="~/Images/loo-kee.jpeg" alt="Loo-Kee" />
 </div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+
 }
