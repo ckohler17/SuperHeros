@@ -23,7 +23,7 @@ namespace WebApplication1
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/newbootstrap.css",
                       "~/Content/site.css"));
         }
     }
